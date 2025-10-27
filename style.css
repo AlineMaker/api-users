@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #d8d8eb;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    height: 100px;
+    display: flex;
+    color: #f15f15;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-inline: 12vw;
+    user-select: none;
+}
+
+.user-card{
+    aspect-ratio: 1;
+    width: 100%;
+    background-color: tomato;
+}
